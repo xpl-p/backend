@@ -95,5 +95,5 @@ app.delete('/api/notes/:id', (request, response) => {
 app.use(unknownEndpoint)
 
 app.listen(port, () => {
-  console.log(`Server running on port ${PORT}`)
+  console.log(`Server running on port ${port}`)
 })
